@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>The Royal Heartbreaker</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Inter:wght@400&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0f1115;
+      --fg: #f2f2f2;
+      --accent: #d4af7f;
+      --muted: #aaa;
+    }
+
+    body {
+      margin: 0;
+      padding: 2rem;
+      font-family: 'Inter', sans-serif;
+      background-color: var(--bg);
+      color: var(--fg);
+    }
+
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.5rem;
+      color: var(--accent);
+      margin-bottom: 2rem;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .chapters {
+      display: grid;
+      gap: 1.5rem;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+
+    .card {
+      background-color: #1a1c22;
+      padding: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+      text-decoration: none;
+      color: var(--fg);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 25px rgba(0, 0, 0, 0.4);
+    }
+
+    .card h2 {
+      margin: 0 0 0.5rem;
+      font-family: 'Playfair Display', serif;
+      font-size: 1.5rem;
+      color: var(--accent);
+    }
+
+    .card p {
+      margin: 0;
+      font-size: 0.95rem;
+      color: var(--muted);
+    }
+
+    footer {
+      margin-top: 4rem;
+      text-align: center;
+      font-size: 1.0rem;
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>📖 The Royal Heartbreaker</h1>
+    <div class="chapters">
+      <a href="chapter-1/" class="card">
+        <h2>Chapter 1</h2>
+        <p>Archer-THE UNJUST ACCUSATION</p>
+      </a>
+      <a href="chapter-2/" class="card">
+        <h2>Chapter 2</h2>
+        <p>Archer-WHAT WILL I DO?</p>
+      </a>
+	<a href="chapter-3/" class="card">
+        <h2>Chapter 3</h2>
+        <p>Mandy-KAHIT ANO</p>
+      </a>
+	<a href="chapter-4/" class="card">
+        <h2>Chapter 4</h2>
+        <p>Archer-THE REALITY OF THE SITUATION</p>
+      </a>
+	<a href="chapter-5/" class="card">
+        <h2>Chapter 5</h2>
+        <p>Mandy-FIRST DAY</p>
+      </a>
+
+
+      <!-- Add more chapters as needed -->
+    </div>
+    <footer>
+      To Be Continued
+    </footer>
+
+    </div>
+    <footer>
+      Made with 🖤 for YumiStories.com
+    </footer>
+  </div>
+</body>
+</html>
